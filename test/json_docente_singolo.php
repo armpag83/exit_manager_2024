@@ -7,11 +7,6 @@
 
 	/* Costruzione oggetto docente */
 	$docente1 = new Docente('CCCBBB00A00H777X', 'Babbo', 'Cocco');
-	$docente2 = new Docente('GGGCCC33A00H777X', 'Ciccio', 'Gaggo');
-	
-	$docenti = array();
-	$docenti[0] = $docente1;
-	$docenti[1] = $docente2;	
 	
 	/* converto l'oggetto in JSON */
 	echo ($docente1->toJSON());
