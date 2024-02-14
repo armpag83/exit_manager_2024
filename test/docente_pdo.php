@@ -11,8 +11,8 @@ class DocentePDO extends PDO {
     private $password;
 
     public function __construct() {
-        // Connessione al database "labsres"
-        parent::__construct("mysql:host=localhost;dbname=labsres", "root", "");
+        // Connessione al database "exitman"
+        parent::__construct("mysql:host=localhost;dbname=exitman", "root", "");
     }
 
     public function get_by_codice($codice) {
