@@ -41,7 +41,7 @@ CREATE TABLE `classe` (
 --
 
 CREATE TABLE `docente` (
-  `codice_Docente` varchar(6) PRIMARY KEY NOT NULL,
+  `codice_docente` varchar(6) NOT NULL,
   `nome` varchar(255) NOT NULL,
   `cognome` varchar(255) NOT NULL,
   `password` varchar(32) NOT NULL
