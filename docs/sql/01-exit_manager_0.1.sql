@@ -47,7 +47,7 @@ CREATE TABLE `docente` (
   `password` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-INSERT INTO `docente` (`codice_Docente`, `nome`, `cognome`, `password`) VALUES ('AA001', 'Armando', 'Pagliara', 'armpag83');
+INSERT INTO `docente` (`codice_docente`, `nome`, `cognome`, `password`) VALUES ('AA001', 'Armando', 'Pagliara', 'armpag83');
 
 --
 -- Indici per le tabelle scaricate
