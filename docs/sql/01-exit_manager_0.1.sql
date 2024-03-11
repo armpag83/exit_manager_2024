@@ -19,9 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `exitman`
 --
-CREATE DATABASE IF NOT EXISTS `exitman`;  
-
+CREATE DATABASE IF NOT EXISTS `exitman` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `exitman`;
+
 -- --------------------------------------------------------
 
 --
